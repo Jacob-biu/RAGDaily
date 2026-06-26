@@ -130,7 +130,7 @@ def build_query() -> str:
         'ti:"AgenticRAG"', 'abs:"AgenticRAG"',
     ]
     kw_q = " OR ".join(kw_pairs)
-    return f"({cat_q}) AND ({kw_q}) {exclude}"
+    return f"({cat_q}) AND ({kw_q})"
 
 
 def fetch_arxiv_papers(query: str, max_results: int = FETCH_MAX) -> list[dict]:
