@@ -116,16 +116,21 @@ ARXIV_NS = {
 
 
 def build_query() -> str:
-    """构建 arxiv API 搜索查询字符串"""
+    """构建 arxiv API 搜索查询字符串，修复拼写错误，收紧匹配"""
     cat_q = " OR ".join(f"cat:{c}" for c in CATEGORIES)
+    # 修正 AAgentic 拼写错误，增加强约束，区分纯检索增强生成
     kw_pairs = [
+        # 核心精确短语
+        'ti:"Retrieval-Augmented Generation"', 'abs:"Retrieval-Augmented Generation"',
+        'ti:"Retrieval Augmented Generation"', 'abs:"Retrieval Augmented Generation"',
         'ti:RAG', 'abs:RAG',
         'ti:"GraphRAG"', 'abs:"GraphRAG"',
         'ti:"Graph RAG"', 'abs:"Graph RAG"',
-        'ti:"AAgentic RAG"', 'abs:"AAgentic RAG"',
+        'ti:"Agentic RAG"', 'abs:"Agentic RAG"',
+        'ti:"AgenticRAG"', 'abs:"AgenticRAG"',
     ]
     kw_q = " OR ".join(kw_pairs)
-    return f"({cat_q}) AND ({kw_q})"
+    return f"({cat_q}) AND ({kw_q}) {exclude}"
 
 
 def fetch_arxiv_papers(query: str, max_results: int = FETCH_MAX) -> list[dict]:
@@ -260,11 +265,17 @@ def _within_hours(published: str, hours: int = HOURS_RANGE) -> bool:
 
 def _match_institution(paper: dict) -> tuple[bool, list[str]]:
     aff_text  = " | ".join(paper.get("affiliations", []))
-    search_in = aff_text if aff_text else paper.get("abstract", "")
+    author_text = " ".join(paper.get("authors", []))
+    title_text = paper.get("title", "")
+    abs_text = paper.get("abstract", "")
+    # 全文检索，覆盖所有可能出现机构的位置
+    search_in = f"{aff_text} {author_text} {title_text} {abs_text}"
 
     matched: list[str] = []
+    lower_search = search_in.lower()
     for inst in TOP_INSTITUTIONS:
-        if inst.lower() in search_in.lower():
+        inst_low = inst.lower()
+        if inst_low in lower_search:
             if inst not in matched:
                 matched.append(inst)
 
@@ -279,8 +290,9 @@ def filter_papers(papers: list[dict]) -> list[dict]:
     for p in papers:
         if p["url"] in seen_urls:
             continue
+        # 只跳过当前超时论文，不break！
         if not _within_hours(p["published"]):
-            break
+            continue
         matched, insts = _match_institution(p)
         if matched:
             p["matched_institutions"] = insts
@@ -290,6 +302,18 @@ def filter_papers(papers: list[dict]) -> list[dict]:
             break
 
     return result
+
+def rag_core_check(paper: dict) -> bool:
+    """二次校验：论文核心是RAG，而非仅提及RAG"""
+    text = (paper["title"] + " " + paper["abstract"]).lower()
+    # 核心RAG动作词，必须至少命中一个
+    core_words = [
+        "retrieval augmented", "graphrag", "graph rag", "agentic rag",
+        "retrieve document", "knowledge retrieval", "external knowledge",
+        "retrieval prompt", "rag framework", "rag benchmark"
+    ]
+    hit = any(word in text for word in core_words)
+    return hit
 
 
 # ═══════════════════════════════════════════════════════════
@@ -343,38 +367,51 @@ def _translate_to_zh(text: str, retries: int = 2) -> str:
     return f"{text}（翻译服务暂不可用）"
 
 
+# def summarize_paper(paper: dict) -> str:
+#     """
+#     为论文生成中文摘要概括。
+#     策略：
+#       1. 提取摘要的前2句（通常描述问题背景与方法）
+#       2. 若总句数 >= 4，追加最后1句（通常是实验结论）
+#       3. 调用 MyMemory API 将提取内容翻译为中文
+#     返回: 中文概括字符串
+#     """
+#     abstract = paper.get("abstract", "").strip()
+#     if not abstract:
+#         return "（摘要不可用）"
+
+#     sentences = _split_sentences(abstract)
+#     if not sentences:
+#         en_text = abstract[:400] + ("…" if len(abstract) > 400 else "")
+#         return _translate_to_zh(en_text)
+
+#     selected: list[str] = []
+
+#     # 取前2句（背景/方法）
+#     for s in sentences[:2]:
+#         selected.append(s)
+
+#     # 若总句数 >= 4，取最后1句（结论），避免重复
+#     if len(sentences) >= 4 and sentences[-1] not in selected:
+#         selected.append(sentences[-1])
+
+#     en_summary = " ".join(selected)
+
+#     # 翻译为中文
+#     return _translate_to_zh(en_summary)
+
 def summarize_paper(paper: dict) -> str:
     """
     为论文生成中文摘要概括。
-    策略：
-      1. 提取摘要的前2句（通常描述问题背景与方法）
-      2. 若总句数 >= 4，追加最后1句（通常是实验结论）
-      3. 调用 MyMemory API 将提取内容翻译为中文
-    返回: 中文概括字符串
+    策略：直接翻译整篇完整英文摘要
+    返回: 完整中文翻译摘要
     """
     abstract = paper.get("abstract", "").strip()
     if not abstract:
         return "（摘要不可用）"
 
-    sentences = _split_sentences(abstract)
-    if not sentences:
-        en_text = abstract[:400] + ("…" if len(abstract) > 400 else "")
-        return _translate_to_zh(en_text)
-
-    selected: list[str] = []
-
-    # 取前2句（背景/方法）
-    for s in sentences[:2]:
-        selected.append(s)
-
-    # 若总句数 >= 4，取最后1句（结论），避免重复
-    if len(sentences) >= 4 and sentences[-1] not in selected:
-        selected.append(sentences[-1])
-
-    en_summary = " ".join(selected)
-
-    # 翻译为中文
-    return _translate_to_zh(en_summary)
+    # 不再截取句子，直接全文翻译
+    return _translate_to_zh(abstract)
 
 
 def extract_keywords(paper: dict) -> list[str]:
@@ -689,7 +726,9 @@ def main() -> int:
     print(f"[INFO] 拉取候选论文：{len(papers_raw)} 篇")
 
     papers = filter_papers(papers_raw)
-    print(f"[INFO] 筛选后符合条件：{len(papers)} 篇")
+    # 新增：过滤仅顺带提及RAG的无关论文
+    papers = [p for p in papers if rag_core_check(p)]
+    print(f"[INFO] 二次RAG核心校验后剩余：{len(papers)} 篇")
 
     # 为每篇论文生成摘要概括和关键词
     for p in papers:
