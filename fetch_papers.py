@@ -293,11 +293,11 @@ def filter_papers(papers: list[dict]) -> list[dict]:
         # 只跳过当前超时论文，不break！
         if not _within_hours(p["published"]):
             continue
-        matched, insts = _match_institution(p)
-        if matched:
-            p["matched_institutions"] = insts
-            result.append(p)
-            seen_urls.add(p["url"])
+        # matched, insts = _match_institution(p)
+        # if matched:
+            # p["matched_institutions"] = insts
+        result.append(p)
+        seen_urls.add(p["url"])
         if len(result) >= MAX_PAPERS:
             break
 
@@ -447,7 +447,8 @@ def _fmt_paper_detail(paper: dict, idx: int) -> str:
     title    = paper.get("title", "无标题")
     authors  = paper.get("authors", [])
     affs     = paper.get("affiliations", [])
-    matched  = paper.get("matched_institutions", [])
+    # matched  = paper.get("matched_institutions", [])
+    # matched  = []
     abstract = paper.get("abstract", "")
     url      = paper.get("url", "")
     pub      = paper.get("published", "")
@@ -465,7 +466,7 @@ def _fmt_paper_detail(paper: dict, idx: int) -> str:
         lead_str += f" 等"
 
     affs_str    = "；".join(affs) if affs else "（详见原文）"
-    matched_str = "、".join(matched[:4])
+    # matched_str = "、".join(matched[:4])
     cats_str    = " | ".join(cats[:3])
     kw_str      = " · ".join(f"`{k}`" for k in keywords) if keywords else "—"
 
@@ -478,7 +479,6 @@ def _fmt_paper_detail(paper: dict, idx: int) -> str:
 <tr><td><b>通讯作者</b></td><td>{lead_str}</td></tr>
 <tr><td><b>全部作者</b></td><td>{authors_str}</td></tr>
 <tr><td><b>作者机构</b></td><td>{affs_str}</td></tr>
-<tr><td><b>顶级机构标签</b></td><td>{matched_str}</td></tr>
 <tr><td><b>arxiv 分类</b></td><td>{cats_str}</td></tr>
 <tr><td><b>发布时间</b></td><td>{pub}</td></tr>
 <tr><td><b>关键词</b></td><td>{kw_str}</td></tr>
@@ -620,7 +620,7 @@ def generate_readme(papers: list[dict], date_str: str) -> str:
             title   = p.get("title", "无标题")
             url     = p.get("url", "")
             summary = p.get("summary", "")
-            insts   = p.get("matched_institutions", [])
+            insts = p.get("affiliations", [])
             authors = p.get("authors", [])
 
             # 截短以适配表格
@@ -646,7 +646,8 @@ def generate_readme(papers: list[dict], date_str: str) -> str:
             url      = p.get("url", "")
             authors  = p.get("authors", [])
             affs     = p.get("affiliations", [])
-            matched  = p.get("matched_institutions", [])
+            # matched  = p.get("matched_institutions", [])
+            # matched  = []
             summary  = p.get("summary", "")
             keywords = p.get("keywords", [])
             pub      = p.get("published", "")
@@ -655,7 +656,7 @@ def generate_readme(papers: list[dict], date_str: str) -> str:
             if len(authors) > 5:
                 authors_disp += f" 等（共 {len(authors)} 人）"
             affs_disp    = "；".join(affs[:3]) if affs else "（详见原文）"
-            matched_disp = "、".join(matched[:3])
+            # matched_disp = "、".join(matched[:3])
             kw_disp      = " · ".join(f"`{k}`" for k in keywords) if keywords else "—"
 
             today_section += f"""<details>
@@ -665,7 +666,6 @@ def generate_readme(papers: list[dict], date_str: str) -> str:
 |------|------|
 | **作者** | {authors_disp} |
 | **所属机构** | {affs_disp} |
-| **顶级机构标签** | {matched_disp} |
 | **发布时间** | {pub} |
 | **关键词** | {kw_disp} |
 | **原文链接** | [{url}]({url}) |
