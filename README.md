@@ -16,14 +16,40 @@
 
 ---
 
-## 📅 今日论文 — 2026-07-01
+## 📅 今日论文 — 2026-07-02　　[→ 查看完整报告](daily/2026-07-02.md)
 
-> ⚠️ 今日暂无符合条件的论文（来自顶级机构的最近36小时内 RAG 相关论文）。
+> 共筛选出 **1** 篇论文 | 更新于 2026-07-02 23:04 UTC
+
+### 论文目录与概要
+
+| # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
+|---|---------|---------|---------|--------|
+| 1 | [Bayesian Uncertainty Propagation for Agentic RAG Pipelines: …](http://arxiv.org/abs/2607.00972v1) | Agentic Retrieval-Augmented Generation （ RAG ）系统的可靠部署需要用于估计多阶段推理管道何时可能失败的机制。本文提出了一种具有不确定性的Agentic Re… | — | Louis Donaldson |
+
+### 论文详情
+
+<details>
+<summary><b>1. Bayesian Uncertainty Propagation for Agentic RAG Pipelines: A Proof-of-Concept Study on Multi-Hop Question Answering</b></summary>
+
+| 字段 | 内容 |
+|------|------|
+| **作者** | Louis Donaldson、Connor Walker、Koorosh Aslansefat、Yiannis Papadopoulos |
+| **所属机构** | （详见原文） |
+| **发布时间** | 2026-07-01T14:08:58Z |
+| **关键词** | `Agentic RAG` · `RAG` |
+| **原文链接** | [http://arxiv.org/abs/2607.00972v1](http://arxiv.org/abs/2607.00972v1) |
+
+**📝 摘要概括：**
+
+> Agentic Retrieval-Augmented Generation （ RAG ）系统的可靠部署需要用于估计多阶段推理管道何时可能失败的机制。本文提出了一种具有不确定性的Agentic Retrieval-Augmented Generation （ RAG ）框架，其中规划器、评估器和生成器阶段产生来自语义发散和发生器自我评估的不确定性信号。这些信号通过贝叶斯网络传播……
+
+</details>
 
 ## 🗄️ 历史归档
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-07-02 | 1 篇 | [2026-07-02.md](daily/2026-07-02.md) |
 | 2026-07-01 | 0 篇 | [2026-07-01.md](daily/2026-07-01.md) |
 | 2026-06-30 | 1 篇 | [2026-06-30.md](daily/2026-06-30.md) |
 | 2026-06-29 | 0 篇 | [2026-06-29.md](daily/2026-06-29.md) |
@@ -42,4 +68,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-01 23:13 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-02 23:04 UTC*
