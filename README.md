@@ -16,32 +16,32 @@
 
 ---
 
-## 📅 今日论文 — 2026-07-02　　[→ 查看完整报告](daily/2026-07-02.md)
+## 📅 今日论文 — 2026-07-03　　[→ 查看完整报告](daily/2026-07-03.md)
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-07-02 23:04 UTC
+> 共筛选出 **1** 篇论文 | 更新于 2026-07-03 23:01 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [Bayesian Uncertainty Propagation for Agentic RAG Pipelines: …](http://arxiv.org/abs/2607.00972v1) | Agentic Retrieval-Augmented Generation （ RAG ）系统的可靠部署需要用于估计多阶段推理管道何时可能失败的机制。本文提出了一种具有不确定性的Agentic Re… | — | Louis Donaldson |
+| 1 | [ContextNest: Verifiable Context Governance for Autonomous AI…](http://arxiv.org/abs/2607.02116v1) | 自主人工智能代理越来越依赖于外部知识库，但大多数检索管道在没有出处、版本身份、完整性、可追溯性或时间点重建的持久保证的情况下提供相关性。我们将此形式化为上下文治理，并推出了ContextNext ，这… | PromptOwl, LLC、Goizueta Business School, Emory University | Misha Sulpovar |
 
 ### 论文详情
 
 <details>
-<summary><b>1. Bayesian Uncertainty Propagation for Agentic RAG Pipelines: A Proof-of-Concept Study on Multi-Hop Question Answering</b></summary>
+<summary><b>1. ContextNest: Verifiable Context Governance for Autonomous AI Agent</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Louis Donaldson、Connor Walker、Koorosh Aslansefat、Yiannis Papadopoulos |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-07-01T14:08:58Z |
-| **关键词** | `Agentic RAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2607.00972v1](http://arxiv.org/abs/2607.00972v1) |
+| **作者** | Misha Sulpovar、Benn R. Konsynski、Qaish Kanchwala、Gabe Goodhart |
+| **所属机构** | PromptOwl, LLC；Goizueta Business School, Emory University；IBM Research |
+| **发布时间** | 2026-07-02T12:51:38Z |
+| **关键词** | `RAG` |
+| **原文链接** | [http://arxiv.org/abs/2607.02116v1](http://arxiv.org/abs/2607.02116v1) |
 
 **📝 摘要概括：**
 
-> Agentic Retrieval-Augmented Generation （ RAG ）系统的可靠部署需要用于估计多阶段推理管道何时可能失败的机制。本文提出了一种具有不确定性的Agentic Retrieval-Augmented Generation （ RAG ）框架，其中规划器、评估器和生成器阶段产生来自语义发散和发生器自我评估的不确定性信号。这些信号通过贝叶斯网络传播……
+> 自主人工智能代理越来越依赖于外部知识库，但大多数检索管道在没有出处、版本身份、完整性、可追溯性或时间点重建的持久保证的情况下提供相关性。我们将此形式化为上下文治理，并推出了ContextNext ，这是一种针对受管理的人工智能消耗知识库的开放式规范和参考实现。ContextNext不会替换Retrieval-Augmented Gene…
 
 </details>
 
@@ -49,6 +49,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-07-03 | 1 篇 | [2026-07-03.md](daily/2026-07-03.md) |
 | 2026-07-02 | 1 篇 | [2026-07-02.md](daily/2026-07-02.md) |
 | 2026-07-01 | 0 篇 | [2026-07-01.md](daily/2026-07-01.md) |
 | 2026-06-30 | 1 篇 | [2026-06-30.md](daily/2026-06-30.md) |
@@ -68,4 +69,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-02 23:04 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-03 23:01 UTC*
