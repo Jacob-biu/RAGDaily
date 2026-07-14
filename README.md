@@ -16,14 +16,40 @@
 
 ---
 
-## 📅 今日论文 — 2026-07-13
+## 📅 今日论文 — 2026-07-14　　[→ 查看完整报告](daily/2026-07-14.md)
 
-> ⚠️ 今日暂无符合条件的论文（来自顶级机构的最近36小时内 RAG 相关论文）。
+> 共筛选出 **1** 篇论文 | 更新于 2026-07-14 22:56 UTC
+
+### 论文目录与概要
+
+| # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
+|---|---------|---------|---------|--------|
+| 1 | [RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Ada…](http://arxiv.org/abs/2607.11683v1) | 图检索增强生成（ GraphRAG ）通过结构化知识增强大型语言模型，但现有系统在单个提取通道中构建知识图，产生噪声实体和脆性检索。RAGU是一个开源模块化GraphRAG引擎，通过将提取与合并分开来… | — | Mikhail Komarov |
+
+### 论文详情
+
+<details>
+<summary><b>1. RAGU: A Multi-Step GraphRAG Engine with a Compact Domain-Adapted LLM</b></summary>
+
+| 字段 | 内容 |
+|------|------|
+| **作者** | Mikhail Komarov、Ivan Bondarenko、Stanislav Shtuka、Oleg Sedukhin、Roman Shuvalov 等（共 8 人） |
+| **所属机构** | （详见原文） |
+| **发布时间** | 2026-07-13T15:20:51Z |
+| **关键词** | `GraphRAG` · `RAG` |
+| **原文链接** | [http://arxiv.org/abs/2607.11683v1](http://arxiv.org/abs/2607.11683v1) |
+
+**📝 摘要概括：**
+
+> 图检索增强生成（ GraphRAG ）通过结构化知识增强大型语言模型，但现有系统在单个提取通道中构建知识图，产生噪声实体和脆性检索。RAGU是一个开源模块化GraphRAG引擎，通过将提取与合并分开来解决这个问题：实体和关系通过两阶段类型提取、DBSCAN支持的重复数据删除、LLM摘要、……
+
+</details>
 
 ## 🗄️ 历史归档
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-07-14 | 1 篇 | [2026-07-14.md](daily/2026-07-14.md) |
 | 2026-07-13 | 0 篇 | [2026-07-13.md](daily/2026-07-13.md) |
 | 2026-07-12 | 0 篇 | [2026-07-12.md](daily/2026-07-12.md) |
 | 2026-07-11 | 0 篇 | [2026-07-11.md](daily/2026-07-11.md) |
@@ -54,4 +80,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-13 22:55 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-07-14 22:56 UTC*
