@@ -16,32 +16,32 @@
 
 ---
 
-## 📅 今日论文 — 2026-08-05　　[→ 查看完整报告](daily/2026-08-05.md)
+## 📅 今日论文 — 2026-08-07　　[→ 查看完整报告](daily/2026-08-07.md)
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-08-05 22:57 UTC
+> 共筛选出 **1** 篇论文 | 更新于 2026-08-07 01:32 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [Training Documents Reranker with Search Rubrics for Deep Res…](http://arxiv.org/abs/2608.03527v1) | 检索系统通过提供相关文档，帮助深度研究代理生成高质量的答案。但是，现有检索器通常通过相关性匹配来选择文档，而单独匹配的前$ k $个文档可能不会形成满足代理查询复杂信息需求的\ textit {set… | — | Wenhan Liu |
+| 1 | [TS-RAG: Retrieval Augmented Generation for Time Series Forec…](http://arxiv.org/abs/2608.06223v1) | 虽然深度学习模型，特别是基于变压器的架构，在时间序列预测方面表现出令人印象深刻的性能，但检索增强生成（ RAG ）在该领域的应用仍然有限。由于RAG已被证明通过整合相关外部信息来增强大型语言模型的能力… | — | Yixiong Xiao |
 
 ### 论文详情
 
 <details>
-<summary><b>1. Training Documents Reranker with Search Rubrics for Deep Research Agent</b></summary>
+<summary><b>1. TS-RAG: Retrieval Augmented Generation for Time Series Forecasting</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Wenhan Liu、Yu Lu、Qiaolin Xia、Hui Xu、Tong Zhao 等（共 11 人） |
+| **作者** | Yixiong Xiao、Congxi Xiao、Jingbo Zhou |
 | **所属机构** | （详见原文） |
-| **发布时间** | 2026-08-04T12:11:14Z |
+| **发布时间** | 2026-08-06T16:12:57Z |
 | **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2608.03527v1](http://arxiv.org/abs/2608.03527v1) |
+| **原文链接** | [http://arxiv.org/abs/2608.06223v1](http://arxiv.org/abs/2608.06223v1) |
 
 **📝 摘要概括：**
 
-> 检索系统通过提供相关文档，帮助深度研究代理生成高质量的答案。但是，现有检索器通常通过相关性匹配来选择文档，而单独匹配的前$ k $个文档可能不会形成满足代理查询复杂信息需求的\ textit {set} （\ eg ，多样、简洁和权威的文档）。在本文中，我们提出了面向搜索的标题，\ textit {ex…
+> 虽然深度学习模型，特别是基于变压器的架构，在时间序列预测方面表现出令人印象深刻的性能，但检索增强生成（ RAG ）在该领域的应用仍然有限。由于RAG已被证明通过整合相关外部信息来增强大型语言模型的能力，因此检索类似的时间序列序列作为参考也可以提高时间序列的准确性。
 
 </details>
 
@@ -49,6 +49,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-08-07 | 1 篇 | [2026-08-07.md](daily/2026-08-07.md) |
 | 2026-08-05 | 1 篇 | [2026-08-05.md](daily/2026-08-05.md) |
 | 2026-08-04 | 0 篇 | [2026-08-04.md](daily/2026-08-04.md) |
 | 2026-08-03 | 0 篇 | [2026-08-03.md](daily/2026-08-03.md) |
@@ -78,7 +79,6 @@
 | 2026-07-10 | 0 篇 | [2026-07-10.md](daily/2026-07-10.md) |
 | 2026-07-09 | 0 篇 | [2026-07-09.md](daily/2026-07-09.md) |
 | 2026-07-08 | 0 篇 | [2026-07-08.md](daily/2026-07-08.md) |
-| 2026-07-07 | 0 篇 | [2026-07-07.md](daily/2026-07-07.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -91,4 +91,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-08-05 22:57 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-08-07 01:32 UTC*
