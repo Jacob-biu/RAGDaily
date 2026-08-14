@@ -16,32 +16,32 @@
 
 ---
 
-## 📅 今日论文 — 2026-08-13　　[→ 查看完整报告](daily/2026-08-13.md)
+## 📅 今日论文 — 2026-08-14　　[→ 查看完整报告](daily/2026-08-14.md)
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-08-13 22:39 UTC
+> 共筛选出 **1** 篇论文 | 更新于 2026-08-14 22:20 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [A corpus-specific clinical RAG system matches or outperforms…](http://arxiv.org/abs/2608.12138v1) | 最近有报道称，通用大型语言模型（ LLM ）与医学基准上的专业临床人工智能工具相匹配或超过了这些工具，但这种比较借鉴了一组狭窄的系统和主要在高收入环境中开发的基准。我们评估VITA ，这是一种检索增强… | — | Praveen Reddy |
+| 1 | [Better Decomposition, Free Aggregation: A Synthesizer-Foldin…](http://arxiv.org/abs/2608.13160v1) | 多语言检索增强生成（ mRAG ）为大型语言模型配备了访问全球分布的外部知识，以进行复杂的多语言问答。最近的方法要么将检索到的文档翻译成英语或查询语言，以弥合跨语言的语义差距，要么将复杂的查询分解成子… | — | Yilin Wang |
 
 ### 论文详情
 
 <details>
-<summary><b>1. A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench</b></summary>
+<summary><b>1. Better Decomposition, Free Aggregation: A Synthesizer-Folding Framework for Multilingual Multi-Hop Question Answering</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Praveen Reddy、Charuta Mandke、Suvrankar Datta、Sarah Khan、Siddharth Reddy Anthireddy 等（共 7 人） |
+| **作者** | Yilin Wang、Yuchun Fan、Weidong Bao、Zili Wei、Shi Feng 等（共 8 人） |
 | **所属机构** | （详见原文） |
-| **发布时间** | 2026-08-12T14:55:46Z |
+| **发布时间** | 2026-08-13T12:25:59Z |
 | **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2608.12138v1](http://arxiv.org/abs/2608.12138v1) |
+| **原文链接** | [http://arxiv.org/abs/2608.13160v1](http://arxiv.org/abs/2608.13160v1) |
 
 **📝 摘要概括：**
 
-> 最近有报道称，通用大型语言模型（ LLM ）与医学基准上的专业临床人工智能工具相匹配或超过了这些工具，但这种比较借鉴了一组狭窄的系统和主要在高收入环境中开发的基准。我们评估VITA ，这是一种检索增强生成（ RAG ）系统，专为印度和其他低收入和中等收入（ LMIC ）地区的上下文知识检索而构建。VITA检索自…
+> 多语言检索增强生成（ mRAG ）为大型语言模型配备了访问全球分布的外部知识，以进行复杂的多语言问答。最近的方法要么将检索到的文档翻译成英语或查询语言，以弥合跨语言的语义差距，要么将复杂的查询分解成子问题并聚合中间推理过程。然而，两种工作方式都存在以下问题……
 
 </details>
 
@@ -49,6 +49,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-08-14 | 1 篇 | [2026-08-14.md](daily/2026-08-14.md) |
 | 2026-08-13 | 1 篇 | [2026-08-13.md](daily/2026-08-13.md) |
 | 2026-08-12 | 0 篇 | [2026-08-12.md](daily/2026-08-12.md) |
 | 2026-08-11 | 0 篇 | [2026-08-11.md](daily/2026-08-11.md) |
@@ -78,7 +79,6 @@
 | 2026-07-17 | 0 篇 | [2026-07-17.md](daily/2026-07-17.md) |
 | 2026-07-16 | 0 篇 | [2026-07-16.md](daily/2026-07-16.md) |
 | 2026-07-15 | 0 篇 | [2026-07-15.md](daily/2026-07-15.md) |
-| 2026-07-14 | 1 篇 | [2026-07-14.md](daily/2026-07-14.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -91,4 +91,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-08-13 22:39 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-08-14 22:20 UTC*
