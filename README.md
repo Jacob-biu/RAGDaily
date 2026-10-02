@@ -16,75 +16,15 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-01　　[→ 查看完整报告](daily/2026-10-01.md)
+## 📅 今日论文 — 2026-10-02
 
-> 共筛选出 **3** 篇论文 | 更新于 2026-10-01 01:08 UTC
-
-### 论文目录与概要
-
-| # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
-|---|---------|---------|---------|--------|
-| 1 | [Re-ranking and Late Interaction Drive Retrieval Quality: A C…](http://arxiv.org/abs/2609.38473v1) | 检索增强生成（ RAG ）现在是在外部知识中接地大型语言模型（ LLM ）的标准方法，但检索管道的设计空间很大，变体之间的权衡尚未得到很好的理解，特别是在现实规模的特定领域语料库上。在这项工作中，我们… | — | Bhagyesh Rathi |
-| 2 | [BITEM at the NTCIR-19 R2C2 Task: Predicting Confidence from …](http://arxiv.org/abs/2609.37993v1) | BITEM团队通过单个代理管道进入了NTCIR-19 R2C2任务的两个子任务，其中模型在电影语料库上搜索、读取和记录证据，而编导则保留记录并规定可以提交的内容。只有当牵连级联根据其引用的段落对其进行… | — | Julien Knafou |
-| 3 | [Retrieve, Reproduce, Reveal: Dissecting Retrieval-Augmented …](http://arxiv.org/abs/2609.37669v1) | 通过在检索到的漏洞知识（如漏洞报告）中进行预测，越来越多地使用检索增强生成（ RAG ）来增强基于大语言模型（ LLM ）的软件漏洞检测。然而，现有的基于RAG的软件漏洞检测（ RAG4SVD ）系统… | — | Sabrina Kaniewski |
-
-### 论文详情
-
-<details>
-<summary><b>1. Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Bhagyesh Rathi、Eshan Chawla、William B. Andreopoulos |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-09-29T20:04:29Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2609.38473v1](http://arxiv.org/abs/2609.38473v1) |
-
-**📝 摘要概括：**
-
-> 检索增强生成（ RAG ）现在是在外部知识中接地大型语言模型（ LLM ）的标准方法，但检索管道的设计空间很大，变体之间的权衡尚未得到很好的理解，特别是在现实规模的特定领域语料库上。在这项工作中，我们提出了六种科学问答检索策略的对照比较： （ i ）经典的top-k密集检索， （ ii ） LLM…
-
-</details>
-
-<details>
-<summary><b>2. BITEM at the NTCIR-19 R2C2 Task: Predicting Confidence from Agentic RAG Pipeline Signals</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Julien Knafou、Luc Mottin、Alexandre Flament、Paul van Rijen、Esteban Gaillac 等（共 6 人） |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-09-29T16:52:38Z |
-| **关键词** | `Agentic RAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2609.37993v1](http://arxiv.org/abs/2609.37993v1) |
-
-**📝 摘要概括：**
-
-> BITEM团队通过单个代理管道进入了NTCIR-19 R2C2任务的两个子任务，其中模型在电影语料库上搜索、读取和记录证据，而编导则保留记录并规定可以提交的内容。只有当牵连级联根据其引用的段落对其进行检查时，才会承认索赔，并且只有当其背后有足够的经过检查的证据时，才会发布答案。每个问题运行三个或f...
-
-</details>
-
-<details>
-<summary><b>3. Retrieve, Reproduce, Reveal: Dissecting Retrieval-Augmented Software Vulnerability Detection</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Sabrina Kaniewski、Tim Krämer、Julius Bächle、Markus Enzweiler、Michael Menth 等（共 6 人） |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-09-29T14:24:46Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2609.37669v1](http://arxiv.org/abs/2609.37669v1) |
-
-**📝 摘要概括：**
-
-> 通过在检索到的漏洞知识（如漏洞报告）中进行预测，越来越多地使用检索增强生成（ RAG ）来增强基于大语言模型（ LLM ）的软件漏洞检测。然而，现有的基于RAG的软件漏洞检测（ RAG4SVD ）系统通常使用专有模型进行评估，这对开放科学和可重复性提出了挑战。此外，研究使用不同的数据集，客户…
-
-</details>
+> ⚠️ 今日暂无符合条件的论文（来自顶级机构的最近36小时内 RAG 相关论文）。
 
 ## 🗄️ 历史归档
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-02 | 0 篇 | [2026-10-02.md](daily/2026-10-02.md) |
 | 2026-10-01 | 3 篇 | [2026-10-01.md](daily/2026-10-01.md) |
 | 2026-09-30 | 0 篇 | [2026-09-30.md](daily/2026-09-30.md) |
 | 2026-09-29 | 0 篇 | [2026-09-29.md](daily/2026-09-29.md) |
@@ -114,7 +54,6 @@
 | 2026-08-20 | 1 篇 | [2026-08-20.md](daily/2026-08-20.md) |
 | 2026-08-19 | 0 篇 | [2026-08-19.md](daily/2026-08-19.md) |
 | 2026-08-18 | 0 篇 | [2026-08-18.md](daily/2026-08-18.md) |
-| 2026-08-17 | 0 篇 | [2026-08-17.md](daily/2026-08-17.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -127,4 +66,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-01 01:08 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-02 01:20 UTC*
