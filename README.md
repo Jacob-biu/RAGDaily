@@ -16,57 +16,15 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-03　　[→ 查看完整报告](daily/2026-10-03.md)
+## 📅 今日论文 — 2026-10-04
 
-> 共筛选出 **2** 篇论文 | 更新于 2026-10-03 00:56 UTC
-
-### 论文目录与概要
-
-| # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
-|---|---------|---------|---------|--------|
-| 1 | [Mapping the RAG Landscape: A Four Axis Taxonomy of Efficienc…](http://arxiv.org/abs/2610.01936v1) | 大型语言模型（ LLM ）在许多任务中表现出非凡的流畅性，但仍然受到其静态、参数绑定知识和对幻觉信息的敏感性的限制。检索增强生成（ RAG ）通过将外部检索纳入生成过程、将模型输出接地到可验证的最新源… | — | Meghana Sunil |
-| 2 | [Walking the Embedding Space: Datastore Extraction from Multi…](http://arxiv.org/abs/2610.01871v1) | 多模态检索增强生成（ MRAG ）已成为一种可靠且具有成本效益的技术，可将多模态大型语言模型（ MLLM ）的生成能力植入相关的最新外部知识中。尽管存在几个好处，例如减少幻觉行为，但它们也引入了新的攻… | — | Maria Carmen Jica |
-
-### 论文详情
-
-<details>
-<summary><b>1. Mapping the RAG Landscape: A Four Axis Taxonomy of Efficiency, Defense, Interactivity, and Reasoning</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Meghana Sunil、Shravya V、Shravan Venkatraman、Joe Dhanith PR |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-01T16:06:05Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.01936v1](http://arxiv.org/abs/2610.01936v1) |
-
-**📝 摘要概括：**
-
-> 大型语言模型（ LLM ）在许多任务中表现出非凡的流畅性，但仍然受到其静态、参数绑定知识和对幻觉信息的敏感性的限制。检索增强生成（ RAG ）通过将外部检索纳入生成过程、将模型输出接地到可验证的最新源中来解决这些问题。虽然之前的调查主要集中在核心RAG架构上……
-
-</details>
-
-<details>
-<summary><b>2. Walking the Embedding Space: Datastore Extraction from Multimodal RAG</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Maria Carmen Jica、Ali Satvaty、Suzan Verberne、Fatih Turkmen |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-01T15:30:06Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.01871v1](http://arxiv.org/abs/2610.01871v1) |
-
-**📝 摘要概括：**
-
-> 多模态检索增强生成（ MRAG ）已成为一种可靠且具有成本效益的技术，可将多模态大型语言模型（ MLLM ）的生成能力植入相关的最新外部知识中。尽管存在几个好处，例如减少幻觉行为，但它们也引入了新的攻击面，包括隐私信息泄露和针对数据提取攻击的漏洞。我…
-
-</details>
+> ⚠️ 今日暂无符合条件的论文（来自顶级机构的最近36小时内 RAG 相关论文）。
 
 ## 🗄️ 历史归档
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-04 | 0 篇 | [2026-10-04.md](daily/2026-10-04.md) |
 | 2026-10-03 | 2 篇 | [2026-10-03.md](daily/2026-10-03.md) |
 | 2026-10-02 | 0 篇 | [2026-10-02.md](daily/2026-10-02.md) |
 | 2026-10-01 | 3 篇 | [2026-10-01.md](daily/2026-10-01.md) |
@@ -96,7 +54,6 @@
 | 2026-08-22 | 0 篇 | [2026-08-22.md](daily/2026-08-22.md) |
 | 2026-08-21 | 0 篇 | [2026-08-21.md](daily/2026-08-21.md) |
 | 2026-08-20 | 1 篇 | [2026-08-20.md](daily/2026-08-20.md) |
-| 2026-08-19 | 0 篇 | [2026-08-19.md](daily/2026-08-19.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -109,4 +66,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-03 00:56 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-04 00:22 UTC*
