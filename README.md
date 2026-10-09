@@ -16,104 +16,32 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-08　　[→ 查看完整报告](daily/2026-10-08.md)
+## 📅 今日论文 — 2026-10-09　　[→ 查看完整报告](daily/2026-10-09.md)
 
-> 共筛选出 **5** 篇论文 | 更新于 2026-10-08 01:34 UTC
+> 共筛选出 **1** 篇论文 | 更新于 2026-10-09 01:44 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [From Retrieval to Customer Context: Evaluating Frontier-Mode…](http://arxiv.org/abs/2610.09375v1) | 组织越来越多地使用前沿语言模型来分析客户反馈，但回答质量也取决于如何组织和提供反馈。我们将\ emph {customer context graph}定义为客户和业务环境的统一模型。类型化的关系将客… | — | Raviraja G |
-| 2 | [TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout…](http://arxiv.org/abs/2610.09360v1) | 真实世界的文档在复杂的页面布局中跨文本、表格、图形和标题分发证据。因此，回答此类文档的复杂问题不仅仅需要检索相关段落：系统必须恢复连接异构证据单元的证据拓扑。现有的GraphRAG评估仍然主要以文本为… | — | Ruochi Li |
-| 3 | [BEACON-SP: Ontology-Grounded GraphRAG Framework for Clinical…](http://arxiv.org/abs/2610.09026v1) | 我们提出了BEACON-SP ，这是一个基于本体的图检索增强生成（ GraphRAG ）框架，用于在自杀预防等行为健康环境中面向临床医生的决策支持，其中有效的评估需要整合异构临床，行为，社会和时间证据… | — | Kemal Davaslioglu |
-| 4 | [Trustworthy Domain-Specific AI for Structured Knowledge Retr…](http://arxiv.org/abs/2610.08894v1) | 本文提出了一种可扩展的架构，用于将非结构化、特定领域的文本转换为结构化知识，以进行检索和推理。它将半自动语料库管理、语义结构、检索和推理集成到一个可解释的管道中。该研究引入了Binary Bleed … | — | Ryan C. Barron |
-| 5 | [Agentic AutoRAG: RAG Pipeline Optimization through Reasoning…](http://arxiv.org/abs/2610.08452v1) | 检索增强生成（ RAG ）是一种广泛使用的方法，用于在外部知识中建立大型语言模型（ LLM ）。然而，在从分块和嵌入模型到重新排序和生成等许多相互作用的选择上，配置流水线是一个昂贵的超参数优化问题。现… | — | Lasse B. Strand |
+| 1 | [RIT-RAG: Navigating Document Corpora with Retrieval-Induced …](http://arxiv.org/abs/2610.11370v1) | 检索增强生成（ RAG ）在外部语料库中建立语言模型。Agentic RAG支持迭代搜索，但将模型暴露在没有文档结构的孤立块中，使得很难将相关证据与仅与查询相似的块区分开来。结构感知方法（如PageI… | — | Meghanadh Pulivarthi |
 
 ### 论文详情
 
 <details>
-<summary><b>1. From Retrieval to Customer Context: Evaluating Frontier-Model Systems for Voice-of-Customer Analysis</b></summary>
+<summary><b>1. RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Raviraja G、Viraj Bagal、Prabhath Chellingi |
+| **作者** | Meghanadh Pulivarthi、Swaraj Kumar Biswal、Kushagra Bhushan、Yatin Nandwani、Sachindra Joshi 等（共 6 人） |
 | **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-07T03:30:22Z |
+| **发布时间** | 2026-10-08T07:03:17Z |
 | **关键词** | `Agentic RAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.09375v1](http://arxiv.org/abs/2610.09375v1) |
+| **原文链接** | [http://arxiv.org/abs/2610.11370v1](http://arxiv.org/abs/2610.11370v1) |
 
 **📝 摘要概括：**
 
-> 组织越来越多地使用前沿语言模型来分析客户反馈，但回答质量也取决于如何组织和提供反馈。我们将\ emph {customer context graph}定义为客户和业务环境的统一模型。类型化的关系将客户对象（反馈、对话、用户和账号）、运营对象（工单、客服代表、机会和竞争对手）和分析联系起来……
-
-</details>
-
-<details>
-<summary><b>2. TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout-Grounded Evidence Reasoning</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Ruochi Li、Jianzhe Lin、Haoxuan Zhang、Haihua Chen、Junhua Ding 等（共 7 人） |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-07T03:15:31Z |
-| **关键词** | `GraphRAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.09360v1](http://arxiv.org/abs/2610.09360v1) |
-
-**📝 摘要概括：**
-
-> 真实世界的文档在复杂的页面布局中跨文本、表格、图形和标题分发证据。因此，回答此类文档的复杂问题不仅仅需要检索相关段落：系统必须恢复连接异构证据单元的证据拓扑。现有的GraphRAG评估仍然主要以文本为中心，而多模态文档RAG基准评估跨模态检索和生成……
-
-</details>
-
-<details>
-<summary><b>3. BEACON-SP: Ontology-Grounded GraphRAG Framework for Clinical Suicide Risk Assessment</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Kemal Davaslioglu、Nathan Conger、Sastry Kompella、Yalin E. Sagduyu、Nathaniel D. Bastian |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-06T19:23:51Z |
-| **关键词** | `GraphRAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.09026v1](http://arxiv.org/abs/2610.09026v1) |
-
-**📝 摘要概括：**
-
-> 我们提出了BEACON-SP ，这是一个基于本体的图检索增强生成（ GraphRAG ）框架，用于在自杀预防等行为健康环境中面向临床医生的决策支持，其中有效的评估需要整合异构临床，行为，社会和时间证据。BEACON-SP将患者知识图与本体引导的检索相结合，以支持跨诊断、药物、R的多跳推理……
-
-</details>
-
-<details>
-<summary><b>4. Trustworthy Domain-Specific AI for Structured Knowledge Retrieval and Reasoning</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Ryan C. Barron |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-06T16:35:41Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.08894v1](http://arxiv.org/abs/2610.08894v1) |
-
-**📝 摘要概括：**
-
-> 本文提出了一种可扩展的架构，用于将非结构化、特定领域的文本转换为结构化知识，以进行检索和推理。它将半自动语料库管理、语义结构、检索和推理集成到一个可解释的管道中。该研究引入了Binary Bleed ，这是一种自适应的二进制搜索方法，可降低非负矩阵分解（ NMF ）的低秩搜索复杂性，以及Hierarch...
-
-</details>
-
-<details>
-<summary><b>5. Agentic AutoRAG: RAG Pipeline Optimization through Reasoning-Driven Agents</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Lasse B. Strand、Robert Jakob、Kevin O'Sullivan、Markus Kreft |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-06T14:38:15Z |
-| **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.08452v1](http://arxiv.org/abs/2610.08452v1) |
-
-**📝 摘要概括：**
-
-> 检索增强生成（ RAG ）是一种广泛使用的方法，用于在外部知识中建立大型语言模型（ LLM ）。然而，在从分块和嵌入模型到重新排序和生成等许多相互作用的选择上，配置流水线是一个昂贵的超参数优化问题。现有的优化器，从贪婪搜索到贝叶斯优化，将每次试验简化为总分，无需模拟为什么……
+> 检索增强生成（ RAG ）在外部语料库中建立语言模型。Agentic RAG支持迭代搜索，但将模型暴露在没有文档结构的孤立块中，使得很难将相关证据与仅与查询相似的块区分开来。结构感知方法（如PageIndex ）导航文档结构，但不能扩展到不适合LLM上下文的大型语料库结构。Henc…
 
 </details>
 
@@ -121,6 +49,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-09 | 1 篇 | [2026-10-09.md](daily/2026-10-09.md) |
 | 2026-10-08 | 5 篇 | [2026-10-08.md](daily/2026-10-08.md) |
 | 2026-10-07 | 1 篇 | [2026-10-07.md](daily/2026-10-07.md) |
 | 2026-10-06 | 0 篇 | [2026-10-06.md](daily/2026-10-06.md) |
@@ -150,7 +79,6 @@
 | 2026-08-28 | 0 篇 | [2026-08-28.md](daily/2026-08-28.md) |
 | 2026-08-27 | 5 篇 | [2026-08-27.md](daily/2026-08-27.md) |
 | 2026-08-25 | 0 篇 | [2026-08-25.md](daily/2026-08-25.md) |
-| 2026-08-24 | 0 篇 | [2026-08-24.md](daily/2026-08-24.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -163,4 +91,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-08 01:34 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-09 01:44 UTC*
