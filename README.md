@@ -16,39 +16,15 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-09　　[→ 查看完整报告](daily/2026-10-09.md)
+## 📅 今日论文 — 2026-10-10
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-10-09 01:44 UTC
-
-### 论文目录与概要
-
-| # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
-|---|---------|---------|---------|--------|
-| 1 | [RIT-RAG: Navigating Document Corpora with Retrieval-Induced …](http://arxiv.org/abs/2610.11370v1) | 检索增强生成（ RAG ）在外部语料库中建立语言模型。Agentic RAG支持迭代搜索，但将模型暴露在没有文档结构的孤立块中，使得很难将相关证据与仅与查询相似的块区分开来。结构感知方法（如PageI… | — | Meghanadh Pulivarthi |
-
-### 论文详情
-
-<details>
-<summary><b>1. RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees</b></summary>
-
-| 字段 | 内容 |
-|------|------|
-| **作者** | Meghanadh Pulivarthi、Swaraj Kumar Biswal、Kushagra Bhushan、Yatin Nandwani、Sachindra Joshi 等（共 6 人） |
-| **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-08T07:03:17Z |
-| **关键词** | `Agentic RAG` · `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.11370v1](http://arxiv.org/abs/2610.11370v1) |
-
-**📝 摘要概括：**
-
-> 检索增强生成（ RAG ）在外部语料库中建立语言模型。Agentic RAG支持迭代搜索，但将模型暴露在没有文档结构的孤立块中，使得很难将相关证据与仅与查询相似的块区分开来。结构感知方法（如PageIndex ）导航文档结构，但不能扩展到不适合LLM上下文的大型语料库结构。Henc…
-
-</details>
+> ⚠️ 今日暂无符合条件的论文（来自顶级机构的最近36小时内 RAG 相关论文）。
 
 ## 🗄️ 历史归档
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-10 | 0 篇 | [2026-10-10.md](daily/2026-10-10.md) |
 | 2026-10-09 | 1 篇 | [2026-10-09.md](daily/2026-10-09.md) |
 | 2026-10-08 | 5 篇 | [2026-10-08.md](daily/2026-10-08.md) |
 | 2026-10-07 | 1 篇 | [2026-10-07.md](daily/2026-10-07.md) |
@@ -78,7 +54,6 @@
 | 2026-08-29 | 0 篇 | [2026-08-29.md](daily/2026-08-29.md) |
 | 2026-08-28 | 0 篇 | [2026-08-28.md](daily/2026-08-28.md) |
 | 2026-08-27 | 5 篇 | [2026-08-27.md](daily/2026-08-27.md) |
-| 2026-08-25 | 0 篇 | [2026-08-25.md](daily/2026-08-25.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -91,4 +66,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-09 01:44 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-10 01:30 UTC*
