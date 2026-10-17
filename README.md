@@ -16,32 +16,32 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-16　　[→ 查看完整报告](daily/2026-10-16.md)
+## 📅 今日论文 — 2026-10-17　　[→ 查看完整报告](daily/2026-10-17.md)
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-10-16 00:08 UTC
+> 共筛选出 **1** 篇论文 | 更新于 2026-10-17 00:12 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [Analyzing performance of Retrieval Augmented Generation mode…](http://arxiv.org/abs/2610.20419v1) | 检索增强生成（ RAG ）模型几乎已成为开放域问答任务的基石；其中，在此过程中生成的答案的质量在很大程度上取决于检索机制的有效性。在法学硕士领域，过去两年在RAG架构方面取得了巨大进步，许多模型报告通… | — | Fazle Mohammed Tasfiq |
+| 1 | [Private Retrieval Augmented Generation via Random Projection](http://arxiv.org/abs/2610.22297v1) | 检索增强生成（ RAG ）通过查询外部结构化知识来增强大型语言模型（ LLM ）的能力。但是，它也可能通过从检索数据存储中泄露敏感信息来引入隐私风险。我们提出了一种简单的方法，通过随机投影来保护RAG… | — | Dixi Yao |
 
 ### 论文详情
 
 <details>
-<summary><b>1. Analyzing performance of Retrieval Augmented Generation models for Question Answering Tasks</b></summary>
+<summary><b>1. Private Retrieval Augmented Generation via Random Projection</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Fazle Mohammed Tasfiq、Sabab Attin、Sheikh Md. Tahmid Hossain、Raiat Reza、Tanzim Ahmmed 等（共 9 人） |
+| **作者** | Dixi Yao、Tahseen Rabbani、Tian Li |
 | **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-14T16:14:55Z |
+| **发布时间** | 2026-10-15T17:45:51Z |
 | **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.20419v1](http://arxiv.org/abs/2610.20419v1) |
+| **原文链接** | [http://arxiv.org/abs/2610.22297v1](http://arxiv.org/abs/2610.22297v1) |
 
 **📝 摘要概括：**
 
-> 检索增强生成（ RAG ）模型几乎已成为开放域问答任务的基石；其中，在此过程中生成的答案的质量在很大程度上取决于检索机制的有效性。在法学硕士领域，过去两年在RAG架构方面取得了巨大进步，许多模型报告通过各种设计创新提高了性能。文化问题和答案……
+> 检索增强生成（ RAG ）通过查询外部结构化知识来增强大型语言模型（ LLM ）的能力。但是，它也可能通过从检索数据存储中泄露敏感信息来引入隐私风险。我们提出了一种简单的方法，通过随机投影来保护RAG系统中的数据存储隐私。通过将相同的投影应用于数据存储区嵌入和查询嵌入，我们的方法可以证明……
 
 </details>
 
@@ -49,6 +49,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-17 | 1 篇 | [2026-10-17.md](daily/2026-10-17.md) |
 | 2026-10-16 | 1 篇 | [2026-10-16.md](daily/2026-10-16.md) |
 | 2026-10-15 | 0 篇 | [2026-10-15.md](daily/2026-10-15.md) |
 | 2026-10-14 | 0 篇 | [2026-10-14.md](daily/2026-10-14.md) |
@@ -78,7 +79,6 @@
 | 2026-09-06 | 0 篇 | [2026-09-06.md](daily/2026-09-06.md) |
 | 2026-09-05 | 0 篇 | [2026-09-05.md](daily/2026-09-05.md) |
 | 2026-09-04 | 1 篇 | [2026-09-04.md](daily/2026-09-04.md) |
-| 2026-09-03 | 0 篇 | [2026-09-03.md](daily/2026-09-03.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -91,4 +91,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-16 00:08 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-17 00:12 UTC*
