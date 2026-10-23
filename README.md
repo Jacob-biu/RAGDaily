@@ -16,32 +16,50 @@
 
 ---
 
-## 📅 今日论文 — 2026-10-22　　[→ 查看完整报告](daily/2026-10-22.md)
+## 📅 今日论文 — 2026-10-23　　[→ 查看完整报告](daily/2026-10-23.md)
 
-> 共筛选出 **1** 篇论文 | 更新于 2026-10-22 00:27 UTC
+> 共筛选出 **2** 篇论文 | 更新于 2026-10-23 00:24 UTC
 
 ### 论文目录与概要
 
 | # | 论文标题 | 核心概要 | 来源机构 | 第一作者 |
 |---|---------|---------|---------|--------|
-| 1 | [Context-Aware Prompt Injection Detection via Small Language …](http://arxiv.org/abs/2610.28364v1) | 本地检索增强生成（ RAG ）系统容易受到间接提示注入和检索中毒，其中检索内容中的恶意指令被误认为是可信输入。我们提出了nokast-secureRAG ，这是一个大约0.5B参数的小语言模型，充当检… | — | Abhishek Rai |
+| 1 | [Graph Topology Meets Energy-Driven Pathfinding: Preserving C…](http://arxiv.org/abs/2610.29933v1) | 检索增强生成（ RAG ）经常集成知识图（ KG ） ，用于复杂的多跳问答。然而，它们的表现越来越受到知识结构和推理过程的瓶颈。（ i ）严重的语义损失：将连续文本提炼成离散符号，剥离了上下文细微差别… | — | Yufeng Li |
+| 2 | [Retrieval Augmented Generation Compositionality](http://arxiv.org/abs/2610.29722v1) | 检索增强生成（ RAG ）基于外部知识中的大型语言模型。现代管道结合了嵌入、分块、检索、重新排序、查询增强、上下文压缩和代理验证，但这些技术通常一次评估一个。目前尚不清楚它们的孤立增益是否能在成分中存… | — | Ido Levy |
 
 ### 论文详情
 
 <details>
-<summary><b>1. Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG</b></summary>
+<summary><b>1. Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation</b></summary>
 
 | 字段 | 内容 |
 |------|------|
-| **作者** | Abhishek Rai |
+| **作者** | Yufeng Li、Zaijing Li、Fuchen Zhang、Zongzong Wu、Ming Zhao 等（共 6 人） |
 | **所属机构** | （详见原文） |
-| **发布时间** | 2026-10-20T15:26:15Z |
+| **发布时间** | 2026-10-21T16:05:44Z |
 | **关键词** | `RAG` |
-| **原文链接** | [http://arxiv.org/abs/2610.28364v1](http://arxiv.org/abs/2610.28364v1) |
+| **原文链接** | [http://arxiv.org/abs/2610.29933v1](http://arxiv.org/abs/2610.29933v1) |
 
 **📝 摘要概括：**
 
-> 本地检索增强生成（ RAG ）系统容易受到间接提示注入和检索中毒，其中检索内容中的恶意指令被误认为是可信输入。我们提出了nokast-secureRAG ，这是一个大约0.5B参数的小语言模型，充当检索和生成之间的语义防火墙。它联合评估用户查询和检索到的上下文，将对归类为安全、可疑或可疑。
+> 检索增强生成（ RAG ）经常集成知识图（ KG ） ，用于复杂的多跳问答。然而，它们的表现越来越受到知识结构和推理过程的瓶颈。（ i ）严重的语义损失：将连续文本提炼成离散符号，剥离了上下文细微差别和叙事连贯性。（ ii ）明显的模态不匹配：碎片化的图形结构与连续…
+
+</details>
+
+<details>
+<summary><b>2. Retrieval Augmented Generation Compositionality</b></summary>
+
+| 字段 | 内容 |
+|------|------|
+| **作者** | Ido Levy、Segev Shlomov、Leshem Choshen |
+| **所属机构** | （详见原文） |
+| **发布时间** | 2026-10-21T13:30:29Z |
+| **关键词** | `RAG` |
+| **原文链接** | [http://arxiv.org/abs/2610.29722v1](http://arxiv.org/abs/2610.29722v1) |
+
+**📝 摘要概括：**
+
+> 检索增强生成（ RAG ）基于外部知识中的大型语言模型。现代管道结合了嵌入、分块、检索、重新排序、查询增强、上下文压缩和代理验证，但这些技术通常一次评估一个。目前尚不清楚它们的孤立增益是否能在成分中存活下来，检索质量和答案忠实度是否有利于相同的设计选择，以及是否存在…
 
 </details>
 
@@ -49,6 +67,7 @@
 
 | 日期 | 论文数 | 报告链接 |
 |------|--------|----------|
+| 2026-10-23 | 2 篇 | [2026-10-23.md](daily/2026-10-23.md) |
 | 2026-10-22 | 1 篇 | [2026-10-22.md](daily/2026-10-22.md) |
 | 2026-10-21 | 0 篇 | [2026-10-21.md](daily/2026-10-21.md) |
 | 2026-10-20 | 0 篇 | [2026-10-20.md](daily/2026-10-20.md) |
@@ -78,7 +97,6 @@
 | 2026-09-11 | 0 篇 | [2026-09-11.md](daily/2026-09-11.md) |
 | 2026-09-10 | 1 篇 | [2026-09-10.md](daily/2026-09-10.md) |
 | 2026-09-09 | 0 篇 | [2026-09-09.md](daily/2026-09-09.md) |
-| 2026-09-08 | 0 篇 | [2026-09-08.md](daily/2026-09-08.md) |
 
 ## 🏛️ 顶级机构覆盖范围
 
@@ -91,4 +109,4 @@
 
 ---
 
-*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-22 00:27 UTC*
+*由 [clawBot RAGDaily](https://github.com/Jacob-biu/clawBot) 自动维护 | 最后更新：2026-10-23 00:24 UTC*
